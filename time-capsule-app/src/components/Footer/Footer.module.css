@@ -1,6 +1,6 @@
 
 
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,39 +17,38 @@ footer {
     margin-top: 0; 
 }
 
-footer > div:first-child {
+.div1{
     flex: 1;
     text-align: center;
     min-width: 100px;
 }
 
-h4,h5 {
+.h4 {
+    font-style: italic;
+    font-size: 1.2em; 
+    font-weight: 550;
     margin: 5px 0;
     color: #333;
     font-family: 'Inter', sans-serif; 
 }
 
-h4 {
-    font-size: 1.2em; 
-    font-weight: 600;
-}
-
-h5 {
+.h5 {
     font-size: 0.9em; 
     font-weight: 400;
-    color: #666;
+    margin: 5px 0;
+    color: #333;
+    font-family: 'Inter', sans-serif; 
 }
 
 
-footer > div:last-child {
+.div2 {
     display: flex; 
     align-items: center; 
     gap: 5px; 
     flex-shrink: 0; 
 }
 
-
-footer a img {
+.a,img{
     display: block; 
     width: 25px; 
     height: 25px; 
@@ -58,24 +57,24 @@ footer a img {
     transition: transform 0.2s ease-in-out; 
 }
 
-footer a img:hover {
+.a,img:hover {
     transform: scale(1.1); 
 }
 
 
 
 @media (max-width: 768px) {
-    footer {
+    .footer {
         flex-direction: column;
         text-align: center; 
         padding: 20px;
     }
 
-    footer > div:first-child {
+    .div1 {
         margin-bottom: 15px; 
     }
 
-    footer > div:last-child {
+    .div2 {
         justify-content: center;
         width: 100%; 
     }

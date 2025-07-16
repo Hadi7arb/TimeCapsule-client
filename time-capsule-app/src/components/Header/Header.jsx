@@ -1,18 +1,21 @@
 import React from "react";
-import './Header-module.css';
+import styles from './Header.module.css';
 
 const Header = () => {
     return (
-            <header>
-                <h1>MomentoFrame</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">Sign-up</a></li>
-                        <li><button>Sign-in</button></li>
-                    </ul>
-                </nav>
-            </header>
-
+        <header className={styles.header}> 
+            <h1 className={styles.h1}>MomentoFrame</h1>
+            <nav className={styles.nav}>
+                <ul className={styles.ul}>
+                    <li className={styles.li}>
+                        <a href="#" className={styles.a}>Sign-up</a>
+                    </li>
+                    <li className={styles.li}>
+                        <button className={styles.button}>Sign-in</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 }
 
