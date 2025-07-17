@@ -1,8 +1,7 @@
 
-import './styles/App.css'
+// import './styles/App.css'
 import LandingPage from './pages/LandingPage/LandingPage.jsx'
-import Header from './components/Header/Header.jsx'
-import Footer from './components/Footer/Footer.jsx'
+import SignUp from './pages/SignUp/SignUp.jsx';
 
 
 
@@ -11,9 +10,8 @@ function App() {
 
   return ( 
     
-      <LandingPage/>
-      // <Header/>
-    // <Footer/> 
+      // <LandingPage/>
+      <SignUp/>
     
     
   );

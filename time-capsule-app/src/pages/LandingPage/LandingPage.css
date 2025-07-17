@@ -1,8 +1,15 @@
+.landing-page-container {
+    min-height: 100vh;
+    background-image: url('../../assets/bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 .capsule-section {
     
-    
+
  max-width: 700px; 
  width: 85%;
  padding: 15px; 

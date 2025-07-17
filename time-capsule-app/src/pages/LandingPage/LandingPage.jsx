@@ -6,8 +6,8 @@ import  Footer from '../../components/Footer/Footer.jsx';
 const LandingPage = () => {
 
     return(
-        <>
-        <Header/>
+        <div className="landing-page-container">
+            <Header/>
             <div className="capsule-section">
                 <h1>Seal your thoughts. <br/> Unlock your future.</h1>
                 <h3>Create your capsule , Send yourself something worth reading tomorrow.</h3>
@@ -21,7 +21,9 @@ const LandingPage = () => {
                 </div>
             </div>
         <Footer/>
-        </>
+        </div>
+        
+        
     );
 }
 
