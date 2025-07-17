@@ -5,7 +5,7 @@ const SignIn = () => {
     return (
         <div className="signin-page-container">
             <div className="signin-form-card">
-                <h1>Create an account</h1>
+                <h1>Sign in to your account</h1>
                 <form> 
                     <div className="form-group">
                         <label for="email">Email</label><br/>
@@ -15,7 +15,7 @@ const SignIn = () => {
                         <label for="password">password</label><br/>
                         <input type="password" id="password" name="password" value="" placeholder="Mypass1234"/><br/>
                     </div>
-                    <button type="submit" className="signin-button">Login</button>
+                    <button type="submit" className="signin-button">Sign In</button>
                     
                     
                 </form> 
