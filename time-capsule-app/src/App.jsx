@@ -1,7 +1,11 @@
 
 // import './styles/App.css'
-import LandingPage from './pages/LandingPage/LandingPage.jsx'
-import SignUp from './pages/SignUp/SignUp.jsx';
+import HomePage from './pages/HomeScreen/HomePage.jsx'
+import SignUp from './pages/SignUp/SignUp.jsx'
+import SignIn from './pages/SignIn/SignIn.jsx';
+import CapsulesPage from './pages/CapsulesPage/CapsulesPage.jsx'
+import CreateCapsule from './pages/CreateCapsule/CreateCapsule.jsx';
+
 
 
 
@@ -9,10 +13,11 @@ function App() {
   
 
   return ( 
-    
-      // <LandingPage/>
-      <SignUp/>
-    
+        // <SignUp/>
+        // <SignIn/>
+        // <CreateCapsule/>
+        <CapsulesPage/>
+      
     
   );
 }
